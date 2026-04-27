@@ -6,4 +6,7 @@ export default [
 	route('useEffect', 'routes/useEffectDemo.tsx'),
 	route('api/users/:userId', 'routes/api.users.$userId.ts'),
 	route('useCallback', 'routes/useCallbackDemo.tsx'),
+	route('useMemo', 'routes/useMemoDemo.tsx'),
+	route('useRef', 'routes/useRefDemo.tsx'),
+	route('useImperativeHandle', 'routes/useImperativeHandleDemo.tsx'),
 ] satisfies RouteConfig;

@@ -31,3 +31,9 @@ export default function UseCallbackDemo() {
 		</div>
 	);
 }
+
+// When to use useCallback
+// useCallback only helps when the function is passed to a child wrapped in
+// React.memo, used as a dependency in another hook (useEffect, useMemo), or
+// causes measurable performance problems. Do not wrap every function — the
+// memoisation itself has a cost. Profile first, optimise second.
